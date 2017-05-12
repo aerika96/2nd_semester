@@ -1,0 +1,6 @@
+﻿  dynamic.cpp
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab7\dynamic\dynamic\dynamic.cpp(152): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab7\dynamic\dynamic\dynamic.cpp(173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  dynamic.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab7\dynamic\Debug\dynamic.exe
+  dynamic.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab7\dynamic\Debug\dynamic.pdb (Partial PDB)

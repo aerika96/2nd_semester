@@ -1,0 +1,7 @@
+﻿  vec3.cpp
+  transform.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\translations\translations\transform.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\translations\translations\transform.cpp(6): error C2146: syntax error: missing ';' before identifier 'translate'
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\translations\translations\transform.cpp(6): error C2143: syntax error: missing ';' before '{'
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\translations\translations\transform.cpp(6): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...

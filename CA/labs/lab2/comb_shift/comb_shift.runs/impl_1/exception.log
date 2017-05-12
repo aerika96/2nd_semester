@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\lab2\comb_shift\comb_shift.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

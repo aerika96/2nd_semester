@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 20 19:59:54 2017
+# Process ID: 3576
+# Current directory: C:/Users/AErika/Desktop/lab6/mips_gr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5696 C:\Users\AErika\Desktop\lab6\mips_gr\mips_gr.xpr
+# Log file: C:/Users/AErika/Desktop/lab6/mips_gr/vivado.log
+# Journal file: C:/Users/AErika/Desktop/lab6/mips_gr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.xpr

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 21 06:28:33 2017
+# Process ID: 2016
+# Current directory: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1
+# Command line: vivado.exe -log mips_gr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_gr.tcl
+# Log file: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/mips_gr.vds
+# Journal file: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mips_gr.tcl -notrace

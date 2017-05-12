@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Mar 10 06:22:14 2017
+# Process ID: 6808
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5040 C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\lab1\test_new\test_new.xpr
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new/vivado.log
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new/test_new.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183624890A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183624890A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new/test_new.runs/impl_1/test_new.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab1/test_new/test_new.runs/impl_1/test_new.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+create_project segmgent7 C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7 -part xc7a35tcpg236-1
+file mkdir C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new
+close [ open C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v w ]
+add_files C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v
+set_property file_type VHDL [get_files  C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v]
+remove_files  C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v
+close [ open C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd w ]
+add_files C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/top_segment.vhd w ]
+add_files C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/top_segment.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top segment7 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+current_project test_new
+close_project
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

@@ -1,0 +1,6 @@
+﻿  hash.cpp
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab6\hashtable\hashtable\hash.cpp(86): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab6\hashtable\hashtable\hash.cpp(87): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  hashTable.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab6\hashTable\Debug\hashTable.exe
+  hashTable.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab6\hashTable\Debug\hashTable.pdb (Partial PDB)

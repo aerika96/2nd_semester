@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab8\ecg_lab8\main.cpp(50): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab8\ecg_lab8\main.cpp(52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab8\ecg_lab8\main.cpp(53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab8\ecg_lab8\main.cpp(54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab8\ecg_lab8\main.cpp(341): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ECG_Lab8.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\ECG_Lab8\Debug\ECG_Lab8.exe
+  ECG_Lab8.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\ECG_Lab8\Debug\ECG_Lab8.pdb (Partial PDB)

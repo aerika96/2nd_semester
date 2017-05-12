@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Mar 23 19:28:57 2017
+# Process ID: 7272
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/memories
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4592 C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\david\memories\memories.xpr
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/memories/vivado.log
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/memories\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/memories/memories.xpr
+INFO: [Project 1-313] Project file moved from 'D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab03/memories' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 769.070 ; gain = 159.824

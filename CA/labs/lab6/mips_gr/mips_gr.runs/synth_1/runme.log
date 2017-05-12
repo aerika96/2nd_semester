@@ -1,0 +1,110 @@
+
+*** Running vivado
+    with args -log mips_gr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_gr.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mips_gr.tcl -notrace
+Command: synth_design -top mips_gr -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8880 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 322.055 ; gain = 111.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mips_gr' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-3491] module 'mips_top' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:36' bound to instance 'inst_fetch' of component 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:45]
+INFO: [Synth 8-3491] module 'rom' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:6' bound to instance 'rom_memory' of component 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'rom' (2#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+WARNING: [Synth 8-3848] Net instruction in module/entity mips_top does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mips_top' (3#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:45]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:34' bound to instance 'main_control' of component 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'control' (4#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-3491] module 'inst_data' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:34' bound to instance 'instr_data' of component 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:46]
+INFO: [Synth 8-3491] module 'regf' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:36' bound to instance 'regist_file' of component 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'regf' (5#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+ERROR: [Synth 8-549] port width mismatch for port 'ra1': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-549] port width mismatch for port 'ra2': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-549] port width mismatch for port 'wa': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-285] failed synthesizing module 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:46]
+ERROR: [Synth 8-285] failed synthesizing module 'mips_gr' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 360.191 ; gain = 149.965
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 2 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 13 01:08:56 2017...
+
+*** Running vivado
+    with args -log mips_gr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_gr.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mips_gr.tcl -notrace
+Command: synth_design -top mips_gr -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 884 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 322.203 ; gain = 112.488
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mips_gr' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-3491] module 'mips_top' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:36' bound to instance 'inst_fetch' of component 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:45]
+INFO: [Synth 8-3491] module 'rom' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:6' bound to instance 'rom_memory' of component 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'rom' (2#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+WARNING: [Synth 8-3848] Net instruction in module/entity mips_top does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mips_top' (3#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:45]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:34' bound to instance 'main_control' of component 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'control' (4#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-3491] module 'inst_data' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:34' bound to instance 'instr_data' of component 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:46]
+INFO: [Synth 8-3491] module 'regf' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:36' bound to instance 'regist_file' of component 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'regf' (5#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+ERROR: [Synth 8-549] port width mismatch for port 'ra1': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-549] port width mismatch for port 'ra2': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-549] port width mismatch for port 'wa': port width = 4, actual width = 3 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:70]
+ERROR: [Synth 8-285] failed synthesizing module 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:46]
+ERROR: [Synth 8-285] failed synthesizing module 'mips_gr' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 359.387 ; gain = 149.672
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 2 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri May 12 09:12:14 2017...

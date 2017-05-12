@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Mar 23 19:34:35 2017
+# Process ID: 7880
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5192 C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\lab3\rom\rom.xpr
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/vivado.log
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 779.363 ; gain = 128.125
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.srcs/sources_1/new/ram.vhd" into library xil_defaultlib [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.srcs/sources_1/new/ram.vhd:1]
+[Thu Mar 23 19:59:38 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 807.047 ; gain = 0.000
+launch_runs impl_1 -jobs 2
+[Thu Mar 23 20:00:44 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Mar 24 07:19:50 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 842.371 ; gain = 0.000

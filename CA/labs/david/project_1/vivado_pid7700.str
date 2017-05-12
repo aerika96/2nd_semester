@@ -1,0 +1,157 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 7700
+
+Current time: 	3/14/17 8:28:16 PM EET
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Vivado/2016.4/tps/win64/jre
+
+User name: 	AErika
+User home directory: C:/Users/AErika
+User working directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Vivado
+RDI data directory: C:/Vivado/2016.4/data
+RDI bin directory: C:/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	168 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 425 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53469kb) [00:00:12]
+// [Engine Memory]: 380 MB (+246651kb) [00:00:12]
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\david\project_1\project_1.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/project_1/project_1.xpr 
+// [Engine Memory]: 412 MB (+13740kb) [00:00:14]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/project_1/project_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab01/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 438 MB. GUI used memory: 26 MB. Current time: 3/14/17 8:28:18 PM EET
+// [Engine Memory]: 443 MB (+10832kb) [00:00:19]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 518 MB (+55232kb) [00:00:29]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 38 MB. Current time: 3/14/17 8:28:34 PM EET
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 762.996 ; gain = 153.449 
+// Project name: project_1; location: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/project_1; part: xc7a35tcpg236-1
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// a:a (cd:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 545 MB (+1522kb) [00:00:35]
+// Elapsed time: 16 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 2); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (test_env.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// [GUI Memory]: 59 MB (+3193kb) [00:01:02]
+// [GUI Memory]: 63 MB (+849kb) [00:03:09]
+// [GUI Memory]: 67 MB (+1173kb) [00:06:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 33 MB. Current time: 3/14/17 8:34:53 PM EET
+// [Engine Memory]: 573 MB (+833kb) [00:07:13]
+// Elapsed time: 382 seconds
+selectCodeEditor("test_env.vhd", 89, 212, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+// [GUI Memory]: 71 MB (+482kb) [00:08:58]
+// [GUI Memory]: 76 MB (+1591kb) [00:20:03]
+// [GUI Memory]: 80 MB (+441kb) [00:25:26]
+// Elapsed time: 1287 seconds
+selectCodeEditor("test_env.vhd", 90, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 35 MB. Current time: 3/14/17 9:04:54 PM EET
+// Elapsed time: 887 seconds
+selectCodeEditor("test_env.vhd", 202, 108); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 84 MB (+75kb) [00:50:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 34 MB. Current time: 3/14/17 9:34:58 PM EET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 33 MB. Current time: 3/14/17 10:04:59 PM EET
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 30 MB. Current time: 3/14/17 10:35:00 PM EET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 30 MB. Current time: 3/14/17 11:05:05 PM EET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 30 MB. Current time: 3/14/17 11:35:02 PM EET
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 30 MB. Current time: 3/15/17 8:49:17 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 27 MB. Current time: 3/15/17 9:19:25 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 28 MB. Current time: 3/15/17 9:49:20 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 27 MB. Current time: 3/15/17 10:19:20 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 27 MB. Current time: 3/15/17 10:49:21 AM EET

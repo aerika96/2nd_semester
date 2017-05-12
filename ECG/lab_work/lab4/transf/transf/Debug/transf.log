@@ -1,0 +1,22 @@
+﻿  vec4.cpp
+  vec3.cpp
+  vec2.cpp
+  transform.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\transform.cpp(55): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\transform.cpp(130): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\transform.cpp(146): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\transform.cpp(162): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  testTransform.cpp
+  stdafx.cpp
+  mat4.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\mat4.cpp(161): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  mat3.cpp
+  main.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\main.cpp(20): warning C4102: 'std': unreferenced label
+  Generating Code...
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\mat3.cpp(80): warning C4715: 'egc::mat3::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\mat3.cpp(90): warning C4715: 'egc::mat3::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\mat4.cpp(65): warning C4715: 'egc::mat4::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab4\transf\transf\mat4.cpp(75): warning C4715: 'egc::mat4::at': not all control paths return a value
+  transf.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab4\transf\Debug\transf.exe
+  transf.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab4\transf\Debug\transf.pdb (Partial PDB)

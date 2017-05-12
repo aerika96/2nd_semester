@@ -1,0 +1,9 @@
+﻿  clip.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(58): warning C4018: '<': signed/unsigned mismatch
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab6 _week5\bresenham\bresenham\clip.cpp(131): warning C4018: '<': signed/unsigned mismatch
+  Bresenham.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab6 _week5\Bresenham\Debug\Bresenham.exe
+  Bresenham.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab6 _week5\Bresenham\Debug\Bresenham.pdb (Partial PDB)

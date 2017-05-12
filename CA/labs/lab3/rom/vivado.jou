@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Mar 23 19:34:35 2017
+# Process ID: 7880
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5192 C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\lab3\rom\rom.xpr
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/vivado.log
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

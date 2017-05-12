@@ -1,0 +1,372 @@
+
+*** Running vivado
+    with args -log test_env.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_env.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source test_env.tcl -notrace
+Command: synth_design -top test_env -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6012 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:26 . Memory (MB): peak = 322.230 ; gain = 112.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'test_env' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:50]
+WARNING: [Synth 8-614] signal 'int_count' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:74]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/imports/new/mpg.vhd:36' bound to instance 'mpg1' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/imports/new/mpg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/imports/new/mpg.vhd:42]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/imports/new/mpg.vhd:36' bound to instance 'mpg2' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:88]
+INFO: [Synth 8-3491] module 'tx_fsm' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/tx_fsm.vhd:35' bound to instance 'fin_state_mach' of component 'tx_fsm' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'tx_fsm' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/tx_fsm.vhd:47]
+WARNING: [Synth 8-614] signal 'tx_dat' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/tx_fsm.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'tx_fsm' (2#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/tx_fsm.vhd:47]
+WARNING: [Synth 8-3848] Net an in module/entity test_env does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:42]
+WARNING: [Synth 8-3848] Net cat in module/entity test_env does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:43]
+WARNING: [Synth 8-3848] Net int_tx in module/entity test_env does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'test_env' (3#1) [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:50]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port rx
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 359.547 ; gain = 149.316
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin fin_state_mach:baud_en to constant 0 [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/new/test_env.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 359.547 ; gain = 149.316
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/constrs_1/imports/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_env_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/test_env_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 650.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:57 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:57 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:57 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:57 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mpg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module tx_fsm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'mpg2/int_e_reg' into 'mpg1/int_e_reg' [C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.srcs/sources_1/imports/new/mpg.vhd:57]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port led[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port an[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[6]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[5]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[1]
+WARNING: [Synth 8-3331] design test_env has unconnected port cat[0]
+WARNING: [Synth 8-3331] design test_env has unconnected port rx
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[4]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[3]
+WARNING: [Synth 8-3331] design test_env has unconnected port btn[2]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[15]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[14]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[13]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[12]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[11]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[10]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[9]
+WARNING: [Synth 8-3331] design test_env has unconnected port sw[8]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\fin_state_mach/bit_cnt_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\fin_state_mach/bit_cnt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\fin_state_mach/bit_cnt_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_3/\fin_state_mach/bit_cnt_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (fin_state_mach/bit_state_reg) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (fin_state_mach/bit_cnt_reg[3]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (fin_state_mach/bit_cnt_reg[2]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (fin_state_mach/bit_cnt_reg[1]) is unused and will be removed from module test_env.
+WARNING: [Synth 8-3332] Sequential element (fin_state_mach/bit_cnt_reg[0]) is unused and will be removed from module test_env.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:59 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:01:09 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |    16|
+|4     |LUT2   |     3|
+|5     |LUT3   |     1|
+|6     |LUT4   |     3|
+|7     |LUT6   |     2|
+|8     |FDCE   |     2|
+|9     |FDRE   |    23|
+|10    |IBUF   |    11|
+|11    |OBUF   |    10|
+|12    |OBUFT  |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+-------+------+
+|      |Instance         |Module |Cells |
++------+-----------------+-------+------+
+|1     |top              |       |    93|
+|2     |  fin_state_mach |tx_fsm |     5|
+|3     |  mpg1           |mpg    |    45|
+|4     |  mpg2           |mpg_0  |     4|
++------+-----------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:01:10 . Memory (MB): peak = 650.301 ; gain = 440.070
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 650.301 ; gain = 108.230
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:01:11 . Memory (MB): peak = 650.301 ; gain = 440.070
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 71 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 650.301 ; gain = 411.883
+INFO: [Common 17-1381] The checkpoint 'C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/fsm/fsm.runs/synth_1/test_env.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 650.301 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 04 21:53:36 2017...

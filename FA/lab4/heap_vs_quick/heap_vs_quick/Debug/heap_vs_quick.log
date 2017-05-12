@@ -1,0 +1,10 @@
+﻿  heap_vs_quick.cpp
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab4\heap_vs_quick\heap_vs_quick\heap_vs_quick.cpp(198): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab4\heap_vs_quick\heap_vs_quick\heap_vs_quick.cpp(222): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab4\heap_vs_quick\heap_vs_quick\heap_vs_quick.cpp(223): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\aerika\documents\2nd\2nd_sem\fa\lab4\heap_vs_quick\heap_vs_quick\heap_vs_quick.cpp(224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  heap_vs_quick.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab4\heap_vs_quick\Debug\heap_vs_quick.exe
+  heap_vs_quick.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\FA\lab4\heap_vs_quick\Debug\heap_vs_quick.pdb (Full PDB)

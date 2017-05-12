@@ -1,0 +1,8 @@
+﻿  EGC_Lab5.cpp
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\egc_lab6\egc_lab5\egc_lab5.cpp(110): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\egc_lab6\egc_lab5\egc_lab5.cpp(111): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\egc_lab6\egc_lab5\egc_lab5.cpp(112): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\egc_lab6\egc_lab5\egc_lab5.cpp(113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\egc_lab6\egc_lab5\egc_lab5.cpp(201): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  EGC_Lab5.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\EGC_Lab6\Debug\EGC_Lab5.exe
+  EGC_Lab5.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\EGC_Lab6\Debug\EGC_Lab5.pdb (Partial PDB)

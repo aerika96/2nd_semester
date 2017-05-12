@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 14 20:22:09 2017
+# Process ID: 8536
+# Current directory: D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab01/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5496 D:\git\UTCN_CS_2nd_year\CA\practice_lab\lab01\project_1\project_1.xpr
+# Log file: D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab01/project_1/vivado.log
+# Journal file: D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab01/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab01/project_1/project_1.xpr

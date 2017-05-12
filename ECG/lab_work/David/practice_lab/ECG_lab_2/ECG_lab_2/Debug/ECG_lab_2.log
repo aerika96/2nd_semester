@@ -1,0 +1,6 @@
+﻿  vec4.cpp
+  main.cpp
+d:\git\utcn_cs_2nd_year\ecg\practice_lab\ecg_lab_2\ecg_lab_2\main.cpp(251): warning C4102: 'std': unreferenced label
+  Generating Code...
+  ECG_lab_2.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\ECG_lab_2\Debug\ECG_lab_2.exe
+  ECG_lab_2.vcxproj -> D:\git\UTCN_CS_2nd_year\ECG\practice_lab\ECG_lab_2\Debug\ECG_lab_2.pdb (Full PDB)

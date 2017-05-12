@@ -1,0 +1,159 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 11656
+
+Current time: 	3/14/17 9:27:32 PM EET
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Vivado/2016.4/tps/win64/jre
+
+User name: 	AErika
+User home directory: C:/Users/AErika
+User working directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/combinational_shifter
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Vivado
+RDI data directory: C:/Vivado/2016.4/data
+RDI bin directory: C:/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	158 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 417 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 47 MB (+47285kb) [00:00:15]
+// [Engine Memory]: 382 MB (+249211kb) [00:00:15]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\david\combinational_shifter\combinational_shifter.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/combinational_shifter/combinational_shifter.xpr 
+// [Engine Memory]: 406 MB (+5068kb) [00:00:17]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/combinational_shifter/combinational_shifter.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/git/UTCN_CS_2nd_year/CA/practice_lab/lab02/combinational_shifter' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 449 MB. GUI used memory: 24 MB. Current time: 3/14/17 9:27:34 PM EET
+// [Engine Memory]: 449 MB (+23415kb) [00:00:22]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 517 MB (+47626kb) [00:00:34]
+// [GUI Memory]: 51 MB (+1194kb) [00:00:34]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 542 MB. GUI used memory: 29 MB. Current time: 3/14/17 9:27:51 PM EET
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 763.625 ; gain = 160.449 
+// Project name: combinational_shifter; location: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/david/combinational_shifter; part: xc7a35tcpg236-1
+// [GUI Memory]: 56 MB (+2097kb) [00:00:38]
+// [Engine Memory]: 543 MB (+863kb) [00:00:38]
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (combinational_shifter.vhd) elapsed time: 0.2s
+// [GUI Memory]: 61 MB (+2508kb) [00:00:48]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 67 MB (+3323kb) [00:01:17]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd), shifter - combinational_shifter - Behavioral (combinational_shifter.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+// [GUI Memory]: 71 MB (+347kb) [00:07:43]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// [GUI Memory]: 74 MB (+53kb) [00:20:25]
+// Elapsed time: 1142 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shifter_tester.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "combinational_shifter.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 34 MB. Current time: 3/14/17 9:57:59 PM EET
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// Elapsed time: 1462 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shifter_tester - Behavioral (shifter_tester.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+// Elapsed time: 269 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// [GUI Memory]: 79 MB (+581kb) [00:49:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 33 MB. Current time: 3/14/17 10:27:57 PM EET
+// [GUI Memory]: 83 MB (+58kb) [01:06:38]
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 1471 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "combinational_shifter.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 461 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shifter_tester.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 33 MB. Current time: 3/14/17 10:58:39 PM EET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// [GUI Memory]: 87 MB (+628kb) [01:47:27]
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 32 MB. Current time: 3/14/17 11:28:06 PM EET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 31 MB. Current time: 3/15/17 8:49:21 AM EET
+// [GUI Memory]: 94 MB (+1817kb) [11:32:46]
+// [GUI Memory]: 98 MB (+303kb) [11:40:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 31 MB. Current time: 3/15/17 9:19:22 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 31 MB. Current time: 3/15/17 9:49:19 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 31 MB. Current time: 3/15/17 10:19:19 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 30 MB. Current time: 3/15/17 10:49:19 AM EET

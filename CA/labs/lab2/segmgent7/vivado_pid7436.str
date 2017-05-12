@@ -1,0 +1,387 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 7436
+
+Current time: 	3/14/17 6:32:42 PM EET
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Vivado/2016.4/tps/win64/jre
+
+User name: 	AErika
+User home directory: C:/Users/AErika
+User working directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Vivado
+RDI data directory: C:/Vivado/2016.4/data
+RDI bin directory: C:/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/AErika/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	164 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 407 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 48 MB (+47908kb) [00:00:12]
+// [Engine Memory]: 378 MB (+244726kb) [00:00:12]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\AErika\Documents\2nd\2nd_sem\CA\labs\lab2\segmgent7\segmgent7.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 421 MB. GUI used memory: 26 MB. Current time: 3/14/17 6:32:44 PM EET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 430 MB (+34665kb) [00:00:19]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 493 MB (+44035kb) [00:00:23]
+// [GUI Memory]: 52 MB (+1734kb) [00:00:25]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'. 
+// Project name: segmgent7; location: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 729.789 ; gain = 124.094 
+// [GUI Memory]: 57 MB (+2656kb) [00:00:27]
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 519 MB (+1015kb) [00:00:27]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (top_segment.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// [GUI Memory]: 60 MB (+126kb) [00:00:32]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+// Elapsed time: 32 seconds
+selectCodeEditor("top_segment.vhd", 149, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 33 MB. Current time: 3/14/17 6:34:24 PM EET
+// [GUI Memory]: 64 MB (+1112kb) [00:03:44]
+// [Engine Memory]: 549 MB (+4171kb) [00:09:29]
+// [GUI Memory]: 68 MB (+547kb) [00:21:55]
+// [GUI Memory]: 72 MB (+340kb) [00:30:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 34 MB. Current time: 3/14/17 7:04:26 PM EET
+// [GUI Memory]: 76 MB (+163kb) [00:39:12]
+// [GUI Memory]: 80 MB (+871kb) [00:50:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 31 MB. Current time: 3/14/17 7:34:29 PM EET
+// Elapsed time: 4710 seconds
+selectCodeEditor("top_segment.vhd", 124, 240); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 110, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 83 seconds
+selectCodeEditor("top_segment.vhd", 117, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("top_segment.vhd", 35, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("top_segment.vhd", 88, 140); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("top_segment.vhd", 226, 205); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("top_segment.vhd", 114, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("top_segment.vhd", 114, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 86 MB (+2019kb) [01:23:01]
+// Elapsed time: 23 seconds
+selectCodeEditor("top_segment.vhd", 232, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 243, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 66, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top_segment.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_segment.vhd", 68, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("top_segment.vhd", 93, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 291, 174); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 401 seconds
+selectCodeEditor("top_segment.vhd", 130, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 32 MB. Current time: 3/14/17 8:04:29 PM EET
+// Elapsed time: 502 seconds
+selectCodeEditor("top_segment.vhd", 388, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("top_segment.vhd", 203, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 349, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 244, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("top_segment.vhd", 218, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("top_segment.vhd", 171, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 34 MB. Current time: 3/14/17 8:34:29 PM EET
+// Elapsed time: 1324 seconds
+selectCodeEditor("top_segment.vhd", 320, 135); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 1010 seconds
+selectCodeEditor("top_segment.vhd", 138, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 473, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 84 seconds
+selectCodeEditor("top_segment.vhd", 109, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 346, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("top_segment.vhd", 273, 147); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 91 seconds
+selectCodeEditor("top_segment.vhd", 73, 140); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 146, 116); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("top_segment.vhd", 95, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 300, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor("top_segment.vhd", 100, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 63, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 213, 173); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("top_segment.vhd", 180, 141); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 262, 93); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd), monopulse - mpg - Behavioral (mpg.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd), monopulse - mpg - Behavioral (mpg.vhd)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_segment.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("top_segment.vhd", 220, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 78 seconds
+selectCodeEditor("top_segment.vhd", 212, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 227, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 266, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top_segment.vhd", 365, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("top_segment.vhd", 239, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 288, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 406, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 539, 175); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 82 seconds
+selectCodeEditor("top_segment.vhd", 211, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("top_segment.vhd", 121, 216); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 35 MB. Current time: 3/14/17 9:04:29 PM EET
+// Elapsed time: 56 seconds
+selectCodeEditor("top_segment.vhd", 65, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("top_segment.vhd", 337, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("top_segment.vhd", 231, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 304, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top_segment.vhd", 322, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 259, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 300, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("top_segment.vhd", 38, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 202 seconds
+selectCodeEditor("top_segment.vhd", 39, 224); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 10, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("top_segment.vhd", 110, 235); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("top_segment.vhd", 327, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("top_segment.vhd", 188, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("top_segment.vhd", 392, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 392, 234, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "top_segment.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 6, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd), segment - segment7 - Behavioral (segment7.vhd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_segment - Behavioral (top_segment.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "project_settings"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+selectComboBox(PAResourceOtoP.ProjectSettingsGeneralPage_TARGET_LANGUAGE, "VHDL", 0); // e:JComboBox (JPanel:JComponent, i:aA)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, i:aA)
+// y:aO (cd:JFrame): Create New Run: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// b:q (cd:JFrame): Create Run: addNotify
+dismissDialog("Create New Run"); // y:aO (cd:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, b:q)
+// TclEventType: RUN_ADD
+// Tcl Command: 'set_property INCLUDE_IN_ARCHIVE [ get_property INCLUDE_IN_ARCHIVE [get_runs impl_1]] [get_runs impl_2]'
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: create_run impl_2 -parent_run synth_1 -flow {Vivado Implementation 2016} -strategy {Vivado Implementation Defaults} 
+// Tcl Message: Run is defaulting to parent run srcset: sources_1 Run is defaulting to parent run constrset: constrs_1 Run is defaulting to parent run part: xc7a35tcpg236-1 
+// Tcl Message: current_run [get_runs impl_2] 
+// Tcl Message: set_property target_language VHDL [current_project] 
+dismissDialog("Create Run"); // b:q (cd:JFrame)
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+// Elapsed time: 23 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// [GUI Memory]: 93 MB (+2385kb) [02:41:13]
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 467 seconds
+selectCodeEditor("top_segment.vhd", 22, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top_segment.vhd", 409, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top_segment.vhd", 39, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("top_segment.vhd", 119, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 144, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 173, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 385, 216); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 138, 226); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 381, 216); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 229, 192); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top_segment.vhd", 106, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("top_segment.vhd", 32, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("top_segment.vhd", 116, 167); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_segment.vhd", 90, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("top_segment.vhd", 97, 127); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_segment.vhd", 158, 140); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 60 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Run Synthesis: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // y:aO (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 14 21:25:54 2017] Launched synth_1... Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 796.098 ; gain = 0.000 
+// 'k' command handler elapsed time: 11 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah:y (cd:JFrame): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 43 MB. Current time: 3/14/17 9:34:33 PM EET
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// Elapsed time: 1434 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Tcl Message: launch_runs impl_2 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 14 21:49:53 2017] Launched impl_2... Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.runs/impl_2/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah:y (cd:JFrame): Implementation Completed: addNotify
+// Elapsed time: 475 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, ah:y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 2 
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 14 21:57:56 2017] Launched impl_2... Run output will be captured here: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab2/segmgent7/segmgent7.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 5000 ms.
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 52 MB. Current time: 3/14/17 10:04:34 PM EET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// Elapsed time: 874 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 53 MB. Current time: 3/14/17 10:34:39 PM EET
+// Elapsed time: 1758 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [GUI Memory]: 98 MB (+387kb) [04:21:36]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 61 MB. Current time: 3/14/17 11:04:49 PM EET
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 62 MB. Current time: 3/14/17 11:34:43 PM EET
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 65 MB. Current time: 3/15/17 8:49:16 AM EET
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// [GUI Memory]: 103 MB (+358kb) [14:33:41]
+// [GUI Memory]: 109 MB (+339kb) [14:46:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 49 MB. Current time: 3/15/17 9:19:17 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 64 MB. Current time: 3/15/17 9:49:16 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 74 MB. Current time: 3/15/17 10:19:16 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 549 MB. GUI used memory: 73 MB. Current time: 3/15/17 10:49:16 AM EET

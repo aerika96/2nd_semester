@@ -1,0 +1,17 @@
+﻿  vec4.cpp
+  vec3.cpp
+  mat4.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\matop\matop\mat4.cpp(161): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  testMatrix.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\testmatrix.cpp(184): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\testmatrix.cpp(184): warning C4305: 'initializing': truncation from 'double' to 'float'
+  mat3.cpp
+  main.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\main.cpp(21): warning C4102: 'std': unreferenced label
+  Generating Code...
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\matrices\matrices\mat3.cpp(62): warning C4715: 'egc::mat3::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\matrices\matrices\mat3.cpp(72): warning C4715: 'egc::mat3::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\matop\matop\mat4.cpp(65): warning C4715: 'egc::mat4::at': not all control paths return a value
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab3\matop\matop\mat4.cpp(75): warning C4715: 'egc::mat4::at': not all control paths return a value
+  matOp.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab3\matOp\Debug\matOp.exe
+  matOp.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab3\matOp\Debug\matOp.pdb (Partial PDB)

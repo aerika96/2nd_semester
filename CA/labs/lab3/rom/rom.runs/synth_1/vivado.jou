@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Mar 23 19:59:19 2017
+# Process ID: 5004
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/synth_1
+# Command line: vivado.exe -log rom_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_top.tcl
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/synth_1/rom_top.vds
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/CA/labs/lab3/rom/rom.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom_top.tcl -notrace

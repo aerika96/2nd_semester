@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  EGC_Lab5.cpp
+c:\users\aerika\documents\2nd\2nd_sem\ecg\lab_work\lab7\egc_lab5\egc_lab5\egc_lab5.cpp(172): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  EGC_Lab5.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab7\EGC_Lab5\Debug\EGC_Lab5.exe
+  EGC_Lab5.vcxproj -> C:\Users\AErika\Documents\2nd\2nd_sem\ECG\lab_work\lab7\EGC_Lab5\Debug\EGC_Lab5.pdb (Partial PDB)

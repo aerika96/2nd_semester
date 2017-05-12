@@ -1,0 +1,557 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 20 12:23:30 2017
+# Process ID: 9104
+# Current directory: C:/Users/AErika/Desktop/lab6/mips_gr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6960 C:\Users\AErika\Desktop\lab6\mips_gr\mips_gr.xpr
+# Log file: C:/Users/AErika/Desktop/lab6/mips_gr/vivado.log
+# Journal file: C:/Users/AErika/Desktop/lab6/mips_gr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/student/Desktop/lab6/mips_gr' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 784.832 ; gain = 137.512
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v" into library work [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.v:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/top_segment.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/top_segment.vhd:1]
+[Thu Apr 20 12:27:55 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 12:36:12 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 12:37:25 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+[Thu Apr 20 13:45:37 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+[Thu Apr 20 13:46:50 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 13:50:18 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 13:51:38 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 13:55:03 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+[Thu Apr 20 13:55:03 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+[Thu Apr 20 14:02:22 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 14:06:31 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 14:07:39 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 14:25:45 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+[Thu Apr 20 14:25:45 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/AErika/Desktop/lab6/mips_gr/.Xil/Vivado-9104-DESKTOP-AQLT8MD/dcp/mips_gr.xdc]
+Finished Parsing XDC File [C:/Users/AErika/Desktop/lab6/mips_gr/.Xil/Vivado-9104-DESKTOP-AQLT8MD/dcp/mips_gr.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.251 . Memory (MB): peak = 1154.195 ; gain = 0.043
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.276 . Memory (MB): peak = 1154.195 ; gain = 0.043
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1267.086 ; gain = 304.383
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+[Thu Apr 20 14:55:23 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 14:59:52 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+[Thu Apr 20 15:22:11 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 15:24:36 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+[Thu Apr 20 15:31:38 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+[Thu Apr 20 15:32:19 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 15:32:24 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+[Thu Apr 20 15:32:24 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 15:34:20 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+[Thu Apr 20 16:13:51 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 16:16:06 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 16:18:08 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 16:27:04 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+[Thu Apr 20 16:27:04 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+[Thu Apr 20 16:49:42 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 16:50:46 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 16:53:43 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Basys3-210183741548A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Basys3-210183741548A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Basys3-210183741548A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183741548A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+[Thu Apr 20 17:09:51 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+[Thu Apr 20 17:11:43 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 17:14:57 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 17:16:34 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:1]
+[Thu Apr 20 17:28:21 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Apr 20 17:29:53 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Apr 20 17:31:20 2017] Launched impl_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/impl_1/mips_gr.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183741548A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183741548A
+close [ open C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.v w ]
+add_files C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.v
+remove_files  C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.v
+close [ open C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd w ]
+add_files C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+[Thu Apr 20 19:41:40 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:1]
+[Thu Apr 20 19:49:35 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:1]
+[Thu Apr 20 19:52:36 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd" into library xil_defaultlib [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:1]
+[Thu Apr 20 19:57:56 2017] Launched synth_1...
+Run output will be captured here: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/runme.log
+reset_run synth_1
