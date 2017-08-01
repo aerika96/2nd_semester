@@ -37,7 +37,12 @@ entity mips_top is
     Port ( clk : in STD_LOGIC;
             enable : in STD_LOGIC;
             beq : in STD_LOGIC;
+            beqz:in STD_LOGIC;
             jmp : in STD_LOGIC;
+            beq_address: in STD_LOGIC_VECTOR(15 downto 0);
+            beqz_address: in STD_LOGIC_VECTOR(15 downto 0);
+            jmp_address: in STD_LOGIC_VECTOR(15 DOWNTO 0);
+            address : out STD_LOGIC_VECTOR(15 downto 0);
            instruction:out STD_LOGIC_VECTOR(15 downto 0)
     );
 end mips_top;
@@ -47,11 +52,10 @@ signal addr:std_logic_vector(15 downto 0) := (others=>'0');
 signal addr_out:std_logic_vector(15 downto 0):=(others=>'0');
 signal int_addr:std_logic_vector(15 downto 0):=(others=>'0');
 signal final_addr:std_logic_vector(15 downto 0):=(others=>'0');
-signal beqAddr:std_logic_vector(15 downto 0):="0000000000000011";
-signal jmpAddr:std_logic_vector(15 downto 0):="0000000000000111";
  
 signal int_display:std_logic_vector(15 downto 0);
 signal int_display_final:std_logic_vector(15 downto 0);
+signal int_beqz:std_logic_vector(15 downto 0);
 component rom 
     Port(
         address: in std_logic_vector(3 downto 0);
@@ -62,8 +66,9 @@ end component;
 begin
 
 addr<=addr_out+1;
-int_addr<=addr when beq='0' else beqAddr;
-final_addr<=int_addr when jmp='0' else jmpAddr;
+int_addr<=addr when beq='0' else beq_address;
+int_beqz<=beqz_address when beqz='1' else int_addr;
+final_addr<=int_beqz when jmp='0' else int_addr+jmp_address;
 
 process(clk,enable)
 begin
@@ -73,6 +78,7 @@ if(rising_edge(clk)) then
     end if;
 end if;
 end process;
-
+address<= "000000000000"&addr_out(3 downto 0);
 rom_memory: rom port map (addr_out(3 downto 0),int_display);
+instruction<=int_display;
 end Behavioral;

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc rfile:../../../mips_gr.srcs/constrs_1/imports/new/constraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc rfile:../../../mips_gr.srcs/constrs_1/imports/new/constraints.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]

@@ -61,7 +61,7 @@ signal memory : mem := (
 );
 begin
 
-process(regwr,memory)
+process(clk,regwr,memory)
 begin
 if(rising_edge(clk))then
 if(regwr='1')then

@@ -85,8 +85,7 @@ egc::mat4 mvp(egc::vec4 point) {
 	return  result;
 }
 
-egc::mat4 mcam() {
-}
+
 egc::vec3 findNormalVectorToTriangle(egc::vec4 vertex1, egc::vec4 vertex2, egc::vec4 vertex3)
 {
     egc::vec3 n;
@@ -108,7 +107,7 @@ bool isTriangleVisible(egc::vec4 vertex1, egc::vec4 vertex2, egc::vec4 vertex3, 
 
 void displayNormalVectors(egc::vec3 normalVector, egc::vec4 triangleCenter)
 {
-    
+	
 }
 
 void renderMesh(SDL_Renderer *renderer, std::vector<tinyobj::shape_t> shapes)
@@ -127,7 +126,6 @@ void renderMesh(SDL_Renderer *renderer, std::vector<tinyobj::shape_t> shapes)
             egc::vec4 tempVertex3 = egc::vec4(shapes[i].mesh.positions[3*vertexId3+0], shapes[i].mesh.positions[3*vertexId3+1], shapes[i].mesh.positions[3*vertexId3+2], 1);
             
             SDL_SetRenderDrawColor(renderer, 96, 96, 96, 0);
-
             drawWireframeTriangle(renderer, tempVertex1, tempVertex2, tempVertex3);
         
         }

@@ -2,12 +2,12 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Fri Apr 21 06:28:33 2017
-# Process ID: 2016
-# Current directory: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1
+# Start of session at: Fri May 26 06:06:46 2017
+# Process ID: 5928
+# Current directory: C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.runs/synth_1
 # Command line: vivado.exe -log mips_gr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_gr.tcl
-# Log file: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/mips_gr.vds
-# Journal file: C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1\vivado.jou
+# Log file: C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.runs/synth_1/mips_gr.vds
+# Journal file: C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source mips_gr.tcl -notrace
 Command: synth_design -top mips_gr -part xc7a35tcpg236-1
@@ -15,61 +15,73 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 3700 
+INFO: Helper process launched with PID 4092 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 322.160 ; gain = 112.145
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 322.723 ; gain = 113.289
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'mips_gr' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
-INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse' of component 'mpg' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:145]
-INFO: [Synth 8-638] synthesizing module 'mpg' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
-INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse1' of component 'mpg' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:146]
-INFO: [Synth 8-3491] module 'mips_top' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:36' bound to instance 'inst_fetch' of component 'mips_top' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:148]
-INFO: [Synth 8-638] synthesizing module 'mips_top' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:48]
-INFO: [Synth 8-3491] module 'rom' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:6' bound to instance 'rom_memory' of component 'rom' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:78]
-INFO: [Synth 8-638] synthesizing module 'rom' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'rom' (2#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'mips_top' (3#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:48]
-INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:34' bound to instance 'main_control' of component 'control' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:149]
-INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
-INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:47]
-INFO: [Synth 8-256] done synthesizing module 'control' (4#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
-INFO: [Synth 8-3491] module 'inst_data' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:35' bound to instance 'instr_data' of component 'inst_data' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:150]
-INFO: [Synth 8-638] synthesizing module 'inst_data' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:48]
-INFO: [Synth 8-3491] module 'regf' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:36' bound to instance 'regist_file' of component 'regf' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:73]
-INFO: [Synth 8-638] synthesizing module 'regf' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
-WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:64]
-INFO: [Synth 8-256] done synthesizing module 'regf' (5#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
-INFO: [Synth 8-256] done synthesizing module 'inst_data' (6#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:48]
-INFO: [Synth 8-3491] module 'segment7' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:36' bound to instance 'seg_7' of component 'segment7' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:151]
-INFO: [Synth 8-638] synthesizing module 'segment7' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'segment7' (7#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:46]
-INFO: [Synth 8-3491] module 'exec_unit' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:36' bound to instance 'execution' of component 'exec_unit' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:153]
-INFO: [Synth 8-638] synthesizing module 'exec_unit' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:52]
-INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:36' bound to instance 'ar_logic_unit' of component 'ALU' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:71]
-INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:47]
-INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:54]
-INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:56]
-WARNING: [Synth 8-614] signal 'func' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
-WARNING: [Synth 8-614] signal 'op1' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
-WARNING: [Synth 8-614] signal 'op2' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
-WARNING: [Synth 8-614] signal 'sa' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
-INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:47]
-INFO: [Synth 8-256] done synthesizing module 'exec_unit' (9#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:52]
-INFO: [Synth 8-3491] module 'data_memory' declared at 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:36' bound to instance 'dat_mem' of component 'data_memory' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:154]
-INFO: [Synth 8-638] synthesizing module 'data_memory' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'data_memory' (10#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:48]
-INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:160]
-WARNING: [Synth 8-614] signal 'instr' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'int_address' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'int_rd1' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'int_rd2' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'int_ext_imm' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'int_result' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'memory_content' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-614] signal 'final_write' is read in the process but is not in the sensitivity list [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:158]
-WARNING: [Synth 8-3848] Net led in module/entity mips_gr does not have driver. [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'mips_gr' (11#1) [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'mips_gr' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mpg' (1#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:42]
+INFO: [Synth 8-3491] module 'mpg' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:36' bound to instance 'mono_pulse1' of component 'mpg' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:242]
+INFO: [Synth 8-3491] module 'mips_top' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:36' bound to instance 'inst_fetch' of component 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'mips_top' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:50]
+INFO: [Synth 8-3491] module 'rom' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:6' bound to instance 'rom_memory' of component 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'rom' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'rom' (2#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/rom.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mips_top' (3#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab4/mips_ram/mips_ram.srcs/sources_1/new/mips_top.vhd:50]
+INFO: [Synth 8-3491] module 'register_if_id' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/register_if_id.vhd:36' bound to instance 'reg_if_id' of component 'register_if_id' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'register_if_id' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/register_if_id.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'register_if_id' (4#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/register_if_id.vhd:46]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:34' bound to instance 'main_control' of component 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'control' (5#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/control.vhd:40]
+INFO: [Synth 8-3491] module 'inst_data' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:35' bound to instance 'instr_data' of component 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'inst_data' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:50]
+INFO: [Synth 8-3491] module 'regf' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:36' bound to instance 'regist_file' of component 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'regf' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'regf' (6#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/new/regf.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'inst_data' (7#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/inst_data.vhd:50]
+INFO: [Synth 8-3491] module 'reg_id_ex' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_id_ex.vhd:35' bound to instance 'reg_idex' of component 'reg_id_ex' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'reg_id_ex' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_id_ex.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'reg_id_ex' (8#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_id_ex.vhd:63]
+INFO: [Synth 8-3491] module 'segment7' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:36' bound to instance 'seg_7' of component 'segment7' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'segment7' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'segment7' (9#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab2/segmgent7/segmgent7.srcs/sources_1/new/segment7.vhd:46]
+INFO: [Synth 8-3491] module 'exec_unit' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:36' bound to instance 'execution' of component 'exec_unit' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'exec_unit' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:56]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:36' bound to instance 'ar_logic_unit' of component 'ALU' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:47]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:54]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:56]
+WARNING: [Synth 8-614] signal 'func' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
+WARNING: [Synth 8-614] signal 'op1' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
+WARNING: [Synth 8-614] signal 'op2' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
+WARNING: [Synth 8-614] signal 'sa' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (10#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/ALU.vhd:47]
+WARNING: [Synth 8-3848] Net destination in module/entity exec_unit does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'exec_unit' (11#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/exec_unit.vhd:56]
+INFO: [Synth 8-3491] module 'reg_ex_mem' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_ex_mem.vhd:36' bound to instance 'reg_exmem' of component 'reg_ex_mem' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'reg_ex_mem' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_ex_mem.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'reg_ex_mem' (12#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_ex_mem.vhd:56]
+INFO: [Synth 8-3491] module 'data_memory' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:36' bound to instance 'dat_mem' of component 'data_memory' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'data_memory' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'data_memory' (13#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/data_memory.vhd:48]
+INFO: [Synth 8-3491] module 'reg_mem_wb' declared at 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_mem_wb.vhd:38' bound to instance 'reg_memwb' of component 'reg_mem_wb' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'reg_mem_wb' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_mem_wb.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'reg_mem_wb' (14#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/reg_mem_wb.vhd:54]
+INFO: [Synth 8-226] default block is never used [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:267]
+WARNING: [Synth 8-614] signal 'instr_regifid' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'int_address' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'rd1_outidex' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'rd2_outidex' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'int_ext_imm' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'result_outmemwb' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'memcont_outmemwb' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-614] signal 'final_write' is read in the process but is not in the sensitivity list [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:265]
+WARNING: [Synth 8-3848] Net led in module/entity mips_gr does not have driver. [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mips_gr' (15#1) [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/new/mips_gr.vhd:46]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[15]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[14]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[13]
@@ -80,15 +92,20 @@ WARNING: [Synth 8-3331] design data_memory has unconnected port address[9]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[8]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[7]
 WARNING: [Synth 8-3331] design data_memory has unconnected port address[6]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port destination[2]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port destination[1]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port destination[0]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port regdest
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rt[2]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rt[1]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rt[0]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rd[2]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rd[1]
+WARNING: [Synth 8-3331] design exec_unit has unconnected port rd[0]
 WARNING: [Synth 8-3331] design inst_data has unconnected port instruction[15]
 WARNING: [Synth 8-3331] design inst_data has unconnected port instruction[14]
 WARNING: [Synth 8-3331] design inst_data has unconnected port instruction[13]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[7]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[6]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[4]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[3]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[1]
-WARNING: [Synth 8-3331] design inst_data has unconnected port contr[0]
+WARNING: [Synth 8-3331] design inst_data has unconnected port enable
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[15]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[14]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[13]
@@ -122,7 +139,7 @@ WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[2]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[1]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 360.422 ; gain = 150.406
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 360.148 ; gain = 150.715
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -132,42 +149,42 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 360.422 ; gain = 150.406
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 360.148 ; gain = 150.715
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]
-Finished Parsing XDC File [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mips_gr_propImpl.xdc].
+Parsing XDC File [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/constrs_1/imports/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mips_gr_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/mips_gr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 651.285 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 651.535 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "rom_mem" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -185,17 +202,19 @@ Detailed RTL Component Info :
 +---XORs : 
 	   2 Input     16 Bit         XORs := 1     
 +---Registers : 
-	               16 Bit    Registers := 2     
-	                1 Bit    Registers := 8     
+	               16 Bit    Registers := 13    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
 +---RAMs : 
 	              816 Bit         RAMs := 1     
 +---Muxes : 
-	  16 Input     16 Bit        Muxes := 1     
-	   2 Input     16 Bit        Muxes := 10    
+	  17 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 11    
 	   4 Input     16 Bit        Muxes := 1     
 	   8 Input      9 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      3 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -216,7 +235,7 @@ Detailed RTL Component Info :
 Module rom 
 Detailed RTL Component Info : 
 +---Muxes : 
-	  16 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
 Module mips_top 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -224,7 +243,11 @@ Detailed RTL Component Info :
 +---Registers : 
 	               16 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 3     
+Module register_if_id 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
 Module control 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -233,7 +256,14 @@ Module inst_data
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 2     
-	   2 Input      3 Bit        Muxes := 1     
+Module reg_id_ex 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
 Module segment7 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -254,12 +284,25 @@ Detailed RTL Component Info :
 	   2 Input     16 Bit       Adders := 1     
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 1     
+Module reg_ex_mem 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
 Module data_memory 
 Detailed RTL Component Info : 
 +---Registers : 
 	               16 Bit    Registers := 1     
 +---RAMs : 
 	              816 Bit         RAMs := 1     
+Module reg_mem_wb 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -275,7 +318,7 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-4471] merging register 'mono_pulse1/int_e_reg' into 'mono_pulse/int_e_reg' [C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:57]
+INFO: [Synth 8-4471] merging register 'mono_pulse1/int_e_reg' into 'mono_pulse/int_e_reg' [C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.srcs/sources_1/imports/labs/lab1/test_env/test_env.srcs/sources_1/new/mpg.vhd:57]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[15]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[14]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port led[13]
@@ -308,6 +351,47 @@ WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[3]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[2]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[1]
 WARNING: [Synth 8-3331] design mips_gr has unconnected port sw[0]
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM dat_mem/rom_mem_reg to conserve power
+INFO: [Synth 8-3886] merging instance 'reg_idex/m_out_reg[2]' (FDE) to 'reg_idex/func_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[15]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[14]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[12]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[13]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[8]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[9]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[10]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[11]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/sa_out_reg' (FDE) to 'reg_idex/immed_out_reg[3]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/func_out_reg[0]' (FDE) to 'reg_idex/immed_out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/func_out_reg[1]' (FDE) to 'reg_idex/immed_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'reg_idex/func_out_reg[2]' (FDE) to 'reg_idex/immed_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[12]' (FDE) to 'reg_if_id/instr_out_reg[6]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[4]' (FDE) to 'reg_if_id/instr_out_reg[5]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[8]' (FDE) to 'reg_if_id/instr_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[9]' (FDE) to 'reg_if_id/instr_out_reg[6]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[7]' (FDE) to 'reg_if_id/instr_out_reg[6]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[6]' (FDE) to 'reg_if_id/instr_out_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reg_if_id/instr_out_reg[11] )
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[6]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3886] merging instance 'reg_if_id/instr_out_reg[11]' (FDE) to 'reg_idex/immed_out_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\reg_idex/immed_out_reg[7] )
+INFO: [Synth 8-3886] merging instance 'reg_idex/immed_out_reg[4]' (FDE) to 'reg_idex/immed_out_reg[5]'
+WARNING: [Synth 8-3332] Sequential element (mono_pulse1/int_out_reg[2]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (mono_pulse1/int_out_reg[1]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (mono_pulse1/int_out_reg[0]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_if_id/pc4_out_reg[4]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[15]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[14]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[13]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[12]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[11]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[10]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[9]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[8]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[7]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[6]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[5]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/branch_out_reg[4]) is unused and will be removed from module mips_gr.
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[15]) is unused and will be removed from module mips_gr.
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[14]) is unused and will be removed from module mips_gr.
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[13]) is unused and will be removed from module mips_gr.
@@ -320,20 +404,34 @@ WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[7]) is unuse
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[6]) is unused and will be removed from module mips_gr.
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[5]) is unused and will be removed from module mips_gr.
 WARNING: [Synth 8-3332] Sequential element (inst_fetch/addr_out_reg[4]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_idex/ex_out_reg[0]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_idex/m_out_reg[1]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_idex/m_out_reg[0]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/m_out_reg[1]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/m_out_reg[0]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_idex/immed_out_reg[7]) is unused and will be removed from module mips_gr.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object          | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|mips_gr     | dat_mem/rom_mem_reg | 64 x 16(READ_FIRST)    | W |   | 64 x 16(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+---------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
 Distributed RAM: Preliminary Mapping  Report (see note below)
-+------------+-----------------------------------+-----------+----------------------+--------------------------------+
-|Module Name | RTL Object                        | Inference | Size (Depth x Width) | Primitives                     | 
-+------------+-----------------------------------+-----------+----------------------+--------------------------------+
-|mips_gr     | dat_mem/rom_mem_reg               | Implied   | 64 x 16              | RAM16X1S x 32  RAM32X1S x 16   | 
-|mips_gr     | instr_data/regist_file/memory_reg | Implied   | 8 x 16               | RAM32M x 6                     | 
-+------------+-----------------------------------+-----------+----------------------+--------------------------------+
++------------+-----------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                        | Inference | Size (Depth x Width) | Primitives   | 
++------------+-----------------------------------+-----------+----------------------+--------------+
+|mips_gr     | instr_data/regist_file/memory_reg | Implied   | 8 x 16               | RAM32M x 6   | 
++------------+-----------------------------------+-----------+----------------------+--------------+
 
 Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 ---------------------------------------------------------------------------------
@@ -352,10 +450,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 651.285 ; gain = 441.270
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -366,8 +464,14 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/reg_dest_out_reg[2]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/reg_dest_out_reg[1]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_exmem/reg_dest_out_reg[0]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_memwb/regdest_out_reg[2]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_memwb/regdest_out_reg[1]) is unused and will be removed from module mips_gr.
+WARNING: [Synth 8-3332] Sequential element (reg_memwb/regdest_out_reg[0]) is unused and will be removed from module mips_gr.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -391,7 +495,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -404,7 +508,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -416,25 +520,39 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|mips_gr     | reg_memwb/wb_out_reg[1] | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
++------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -451,57 +569,59 @@ Report Cell Usage:
 |      |Cell     |Count |
 +------+---------+------+
 |1     |BUFG     |     1|
-|2     |CARRY4   |    14|
-|3     |LUT1     |    21|
-|4     |LUT2     |     9|
-|5     |LUT3     |    17|
-|6     |LUT4     |    33|
-|7     |LUT5     |    78|
-|8     |LUT6     |   144|
-|9     |RAM16X1S |    32|
+|2     |CARRY4   |    15|
+|3     |LUT1     |    22|
+|4     |LUT2     |    20|
+|5     |LUT3     |    60|
+|6     |LUT4     |    48|
+|7     |LUT5     |    49|
+|8     |LUT6     |    55|
+|9     |MUXF7    |    27|
 |10    |RAM32M   |     6|
-|11    |RAM32X1S |    16|
-|12    |FDRE     |    43|
-|13    |IBUF     |     6|
-|14    |OBUF     |    11|
-|15    |OBUFT    |    16|
+|11    |RAMB18E1 |     1|
+|12    |SRL16E   |     2|
+|13    |FDRE     |   133|
+|14    |IBUF     |     5|
+|15    |OBUF     |    11|
+|16    |OBUFT    |    16|
 +------+---------+------+
 
 Report Instance Areas: 
-+------+------------------+------------+------+
-|      |Instance          |Module      |Cells |
-+------+------------------+------------+------+
-|1     |top               |            |   447|
-|2     |  dat_mem         |data_memory |    92|
-|3     |  execution       |exec_unit   |     4|
-|4     |    ar_logic_unit |ALU         |     4|
-|5     |  inst_fetch      |mips_top    |   227|
-|6     |  instr_data      |inst_data   |    17|
-|7     |    regist_file   |regf        |    17|
-|8     |  mono_pulse      |mpg         |    65|
-|9     |  mono_pulse1     |mpg_0       |     3|
-+------+------------------+------------+------+
++------+------------------+---------------+------+
+|      |Instance          |Module         |Cells |
++------+------------------+---------------+------+
+|1     |top               |               |   471|
+|2     |  dat_mem         |data_memory    |     1|
+|3     |  instr_data      |inst_data      |     6|
+|4     |    regist_file   |regf           |     6|
+|5     |  execution       |exec_unit      |     5|
+|6     |    ar_logic_unit |ALU            |     4|
+|7     |  inst_fetch      |mips_top       |    22|
+|8     |  mono_pulse      |mpg            |    50|
+|9     |  reg_exmem       |reg_ex_mem     |    41|
+|10    |  reg_idex        |reg_id_ex      |   234|
+|11    |  reg_if_id       |register_if_id |    29|
+|12    |  reg_memwb       |reg_mem_wb     |    50|
++------+------------------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 660.355 ; gain = 450.340
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 651.535 ; gain = 442.102
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 44 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 660.355 ; gain = 118.938
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 660.355 ; gain = 450.340
+Synthesis finished with 0 errors, 0 critical warnings and 72 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 651.535 ; gain = 109.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 651.535 ; gain = 442.102
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 54 instances were transformed.
-  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  A total of 6 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
-  RAM32X1S => RAM32X1S (RAMS32): 16 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-62 Infos, 109 Warnings, 0 Critical Warnings and 0 Errors encountered.
+103 Infos, 142 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 660.355 ; gain = 421.367
-INFO: [Common 17-1381] The checkpoint 'C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1/mips_gr.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 660.355 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 06:29:08 2017...
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 651.535 ; gain = 412.910
+INFO: [Common 17-1381] The checkpoint 'C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.runs/synth_1/mips_gr.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 651.535 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri May 26 06:07:32 2017...

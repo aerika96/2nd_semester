@@ -37,8 +37,10 @@ entity inst_data is
     clk:in std_logic;
     instruction: in std_logic_vector (15 downto 0);
     write_data: in std_logic_vector (15 downto 0);
-    contr: in std_logic_vector(8 downto 0);
+    destination: in std_logic_vector(2 downto 0);
+    ext: in std_logic;
     enable : in std_logic;
+    reg_wr: in std_logic;
     rd1 : out std_logic_vector (15 downto 0);
     rd2 : out std_logic_vector (15 downto 0);
     ext_imm: out std_logic_vector (15 downto 0)
@@ -66,10 +68,10 @@ signal int_rd2 : std_logic_vector(15 downto 0);
 signal extended : std_logic_vector(15 downto 0);
 begin
 int_imm <= "111111111"&instruction(6 downto 0) when instruction(6)='1' else "000000000"&instruction(6 downto 0);
-int_regwr <= contr(8) and enable;
-int_dest <= instruction(6 downto 4) when contr(5)='1' else instruction(9 downto 7);
-extended<=int_imm when contr(2)='1' else "000000000"&instruction(6 downto 0);
+int_regwr <= reg_wr;
+extended<=int_imm when ext='1' else "000000000"&instruction(6 downto 0);
 ext_imm<=extended;
+int_dest<=destination;
 regist_file: regf port map (clk,int_regwr,instruction(12 downto 10),instruction(9 downto 7),int_dest,write_data,rd1,int_rd2);
 rd2<= int_rd2 ;
 end Behavioral;

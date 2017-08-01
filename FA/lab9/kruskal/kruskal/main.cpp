@@ -2,9 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
+/*Analysis
+The Kruskal algorithm is based on disjoint set operations - it solves the minimum spanning tree problem
+	-first of all, creates a disjoint set from each node with MAKE_SET operation, resulting into a |V| nr. of sets of a single node, having as parent itself
+	-the next step is to create |V|*4 nr of edges - it takes |V|*4 time (but this is not evaluated, not being a disjoint set operation)
+	-next the edges are sorted in a non-decreasing order (kruskal being a greedy algorithm, always chooses the edge with the smallest weight) - |E|lg|E| time  - I used heap-sort
+	-passing through the ordered list of edges, it tries to select each time the one with the smallest weight - only that edge  can be selected, which does not close a circle - with FIND_SET it is verified 
+	whether the two endpoints of the edge belong to the same set or not
+	-if not, they are added to the final treee and using the UNION operation, the edge united with the rest of the edges
+	-the final running time of the algorithm is O(|E|lg|V|)
+*/
 
 int vertices[10000];
-int op;
+int make_op, find_op, union_op, total;
 typedef struct _node {
 	_node *parent;
 	int key;
@@ -46,23 +56,88 @@ void generateEdges(int n) {
 			i++;
 	}
 }
+void swap(int *a, int *b) {
+	int aux = *a;
+	*a = *b;
+	*b = aux;
+}
+int getParent_index(int index) {
+	return index / 2;
+}
 
+int getLeftChild_index(int index) {
+	return index * 2;
+}
+
+int getRightChild_index(int index) {
+	return 2 * index + 1;
+}
+void sink_element(int index, int n) {
+
+	int i = index;
+	if (getLeftChild_index(index) < n) {
+		if (edges[getLeftChild_index(index)]->weight > edges[index]->weight) {
+			i = getLeftChild_index(index);
+		}
+		else {
+			i = index;
+		}
+	}
+	if (getRightChild_index(index) < n) {
+		if (edges[getRightChild_index(index)]->weight > edges[i]->weight) {
+			i = getRightChild_index(index);
+		}
+	}
+	if (i != index) {
+		EdgeT * aux;
+		aux = edges[i];
+		edges[i] = edges[index];
+		edges[index] = aux;
+		sink_element(i, n);
+	}
+	else {
+		return;
+	}
+
+}
+
+void BU_heap(int n) {
+
+	int  current_ind = n - 1;
+	for (int i = n / 2; i >= 0; i--) {
+		sink_element(i, n);
+	}
+
+
+}
+void heapSort(int n) {
+	int len = n;
+	for (int i = n - 1; i >= 1; i--) {
+		EdgeT * aux;
+		aux = edges[i];
+		edges[i] = edges[0];
+		edges[0] = aux;
+		len--;
+		sink_element(0, len);
+
+	}
+}
 
 NodeT* make_set(int x, NodeT*newSet) {
 	newSet->key = x;
 	newSet->rank = 0;
 	newSet->parent = newSet;
-	op += 3;
+	make_op +=3;
 	return newSet;
 }
 
 NodeT* find_set(NodeT* element) {
-	op++;
+	find_op++;
 	if (element == element->parent) {
 		return element;
 	}
 	else {
-		op++;
+		find_op++;
 		element->parent = find_set(element->parent);
 	}
 }
@@ -70,18 +145,18 @@ NodeT* find_set(NodeT* element) {
 NodeT* set_union(NodeT*x, NodeT* y) {
 	NodeT * parent_x = find_set(x);
 	NodeT* parent_y = find_set(y);
-	op++;
+	union_op++;
 	if (parent_x->rank > parent_y->rank) {
-		op++;
+		union_op++;
 		parent_y->parent = parent_x;
 		return parent_x;
 	}
 	else {
-		op++;
+		union_op++;
 		parent_x->parent = parent_y;
-		op++;
-		if (parent_x->rank == parent_y->rank) {
-			op++;
+		union_op++;
+		if (parent_x->rank == parent_y->rank && parent_x!=parent_y) {
+			union_op++;
 			parent_y->rank++;
 		}
 		return parent_y;
@@ -116,8 +191,8 @@ EdgeT** MST_kruskal(int n){
 		vertex[i] = make_set(vertices[i],vertex[i]);
 	}
 	generateEdges(n);
-	
-	sort(n*4);
+	BU_heap(n * 4);
+	heapSort(n*4);
 	
 	for (int i = 0; i < n * 4; i++) {
 		NodeT* u = edges[i]->start;
@@ -165,13 +240,15 @@ int main() {
 		edges[i] = (EdgeT*)malloc(sizeof(EdgeT));
 	}
 	FILE * out = fopen("kruskal.csv", "w");
-	fprintf(out, "n,operations\n");
+	fprintf(out, "n,make_set,find_set,union,total\n");
 	for (int i = 1; i <= 100; i++) {
 		n = i * 100;
 		generateRandom(n);
-		op = 0;
+		union_op = 0;
+		make_op = 0;
+		find_op = 0;
 		EdgeT** set = MST_kruskal(n);
-		fprintf(out, "%d,%d\n", n, op);
+		fprintf(out, "%d,%d,%d,%d,%d\n", n, make_op,find_op,union_op,make_op+union_op+find_op);
 
 	}
 

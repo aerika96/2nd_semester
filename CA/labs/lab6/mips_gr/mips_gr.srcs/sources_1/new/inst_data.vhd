@@ -21,7 +21,8 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -39,7 +40,8 @@ entity inst_data is
     contr: in std_logic_vector(8 downto 0);
     enable : in std_logic;
     rd1 : out std_logic_vector (15 downto 0);
-    rd2 : out std_logic_vector (15 downto 0)
+    rd2 : out std_logic_vector (15 downto 0);
+    ext_imm: out std_logic_vector (15 downto 0)
   );
 end inst_data;
 
@@ -66,7 +68,8 @@ begin
 int_imm <= "111111111"&instruction(6 downto 0) when instruction(6)='1' else "000000000"&instruction(6 downto 0);
 int_regwr <= contr(8) and enable;
 int_dest <= instruction(6 downto 4) when contr(5)='1' else instruction(9 downto 7);
-extended<=int_imm when contr(2)='0' else "000000000"&instruction(6 downto 0);
+extended<=int_imm when contr(2)='1' else "000000000"&instruction(6 downto 0);
+ext_imm<=extended;
 regist_file: regf port map (clk,int_regwr,instruction(12 downto 10),instruction(9 downto 7),int_dest,write_data,rd1,int_rd2);
-rd2<= int_rd2 when contr(4)='0'else extended;
+rd2<= int_rd2 ;
 end Behavioral;

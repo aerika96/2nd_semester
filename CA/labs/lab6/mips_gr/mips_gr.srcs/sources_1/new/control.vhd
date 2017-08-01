@@ -46,13 +46,13 @@ process(opcode)
 begin
 case(opcode)is
 when "000" => control_sig<="111101000"; --r-type
-when "001" => control_sig<="100011000"; --addi
-when "010" => control_sig<="100010101"; --lw
-when "011" => control_sig<="000010110"; --sw
+when "001" => control_sig<="100011100"; --addi
+when "010" => control_sig<="100010001"; --lw
+when "011" => control_sig<="000010010"; --sw
 when "100" => control_sig<="001000100"; --beq
 when "101" => control_sig<="110011000"; --andi
 when "110" => control_sig<="001000100"; --bgez
-when "111" => control_sig<="000000100"; --jmp
+when "111" => control_sig<="000000000"; --jmp
 when others => control_sig <= "111111111";
 end case;
 

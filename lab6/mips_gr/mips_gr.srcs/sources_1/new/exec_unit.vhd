@@ -43,9 +43,13 @@ entity exec_unit is
     sa: in std_logic;
     alusrc: in std_logic;
     aluop:in std_logic_vector(1 downto 0);
+      regdest: in std_logic;
+      rt: in std_logic_vector(2 downto 0);
+      rd: in std_logic_vector(2 downto 0);
     branch:out std_logic_vector(15 downto 0);
     result: out std_logic_vector(15 downto 0);
-    zero: out std_logic
+    zero: out std_logic;
+    destination : out std_logic_vector(2 downto 0)
  );
 end exec_unit;
 
@@ -71,7 +75,7 @@ int_rd2<=ext_imm when alusrc='1' else rd2;
 ar_logic_unit: ALU port map (rd1,int_rd2,sa,func,aluop,int_result);
 zero <= '1' when int_result = "0000000000000000" else '0';
 result<=int_result;
-shift_imm<=ext_imm(15 downto 1);
+shift_imm<=ext_imm(15 downto 0);
 branch <= shift_imm+pc_4;
 
 

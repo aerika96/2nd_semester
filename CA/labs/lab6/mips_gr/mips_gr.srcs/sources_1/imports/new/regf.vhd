@@ -37,9 +37,9 @@ entity regf is
   Port ( 
     clk:in std_logic;
     regwr: in std_logic;
-    ra1: in std_logic_vector(3 downto 0);
-    ra2: in std_logic_vector(3 downto 0);
-    wa : in std_logic_vector(3 downto 0);
+    ra1: in std_logic_vector(2 downto 0);
+    ra2: in std_logic_vector(2 downto 0);
+    wa : in std_logic_vector(2 downto 0);
     wd : in std_logic_vector (15 downto 0);
     rd1 : out std_logic_vector (15 downto 0);
     rd2 : out std_logic_vector (15 downto 0)
@@ -49,7 +49,7 @@ end regf;
 architecture Behavioral of regf is
 type mem is array  (0 to 16 )of std_logic_vector(15 downto 0);
 signal memory : mem := (
-    x"0001",
+    x"0000",
     x"0002",
     x"0003",
     x"0004",

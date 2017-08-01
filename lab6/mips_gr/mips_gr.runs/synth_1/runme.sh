@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/AErika/Desktop/lab6/mips_gr/mips_gr.runs/synth_1'
+HD_PWD='C:/Users/AErika/Documents/2nd/2nd_sem/lab6/mips_gr/mips_gr.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -35,7 +35,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity mpg is
     Port ( clk : in STD_LOGIC;
-           button : in STD_LOGIC_VECTOR (3 downto 0);
+           button : in STD_LOGIC;
            en : out STD_LOGIC);
 end mpg;
 
@@ -64,7 +64,7 @@ begin
   begin
   if(rising_edge(clk)) then
     if(int_e='1') then
-        int_out(2) <= (button(3) OR button(2) OR button(1) OR button(0));
+        int_out(2) <= button;
     end if;
   end if;  
   end process;
